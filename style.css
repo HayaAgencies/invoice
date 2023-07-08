@@ -1,0 +1,14 @@
+@media print
+{
+    .btn,.btn-primary
+    {
+        display: none;
+    }
+    .Noprint{
+        display:  none;
+    }
+    .form-control
+    {
+    border: 0px;
+    }
+}
