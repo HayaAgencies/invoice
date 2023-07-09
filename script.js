@@ -58,10 +58,5 @@ function GetTotal()
 
     document.getElementById("FTotal").value = sum;
 
-    var gst =  document.getElementById("FGST").value;
-    var net = +(sum) + +(gst);
-    document.getElementById("FNet").value = net;
-
-
 }
  
