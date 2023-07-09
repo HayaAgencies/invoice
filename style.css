@@ -1,14 +1,25 @@
-@media print
+.input-group-text {
+    width: 85px;
+ }
+ @media print{
+    .btn , .NoPrint 
 {
-    .btn,.btn-primary
-    {
-        display: none;
-    }
-    .Noprint{
-        display:  none;
-    }
-    .form-control
-    {
-    border: 0px;
-    }
+    display: none;
 }
+
+.form-control
+{
+    border: 0px;
+}
+
+.input-group-text
+{
+    border: 0px;
+    background-color: white;
+}
+
+table 
+{
+    border : 1px solid black;
+}
+ }
